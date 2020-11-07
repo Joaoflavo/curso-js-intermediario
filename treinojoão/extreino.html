@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Intermediário de Js</title>
+        <style> 
+                *{margin: 0; 
+                    padding: 0;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    image-rendering: optimizeQuality;
+                    image-orientation: 0grad;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline
+                }
+            Body{
+                padding-top: 3px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                align-items: center;
+                background-color:#E6E8FA;
+                color: white;
+                font: normal 18pt garamond bold;
+            }
+            .title{
+                font-size:25pt;
+                font: "Mônaco" "Menlo, 'Courier New', monospace" bold;
+            }
+            .text{
+                font-size:16pt garamond bold;
+            }
+            .back{
+                display: flexbox;
+                padding: 3vh 3vh 3vh 3vh;
+                width: 720px;
+                height: 640px;
+                cursor:pointer;
+            }
+            img{
+                display: flex;
+                padding-top: 1rem; 
+                
+            }
+            .logo{
+            image-resolution: initial;
+            background: url("img2/—Pngtree—beautiful\ hologram\ -color\ \ _3643167.png");
+            background-attachment: local;
+            background-size: cover;
+            background-position: center;
+            }
+        
+        </style>
+</head>
+<body>
+        <div class="back">
+            <body background="img2/pano de fundo sol editado.jpg" width="100" height="100" alt="Desgin by-J°@°"\>
+            </body>
+        <img class ="logo" src="img2/logojfspre2.png" width="220px" height="200px">
+        </div>
+    <h1 class="title">Olá, mundo!</h1>
+    <br>
+    <p class="text">Desenvolvendo em Javascript nível Intermediário</p>
+    <br>
+    <br>
+    <span>Design by-J°@°-2@2@/11/06</span>
+    <br>
+        <Script type="text/javascript">    
+        // Obtém a data/hora atual
+        var data = new Date();
+
+        // Guarda cada pedaço em uma variável
+        var dia     = data.getDate();           // 1-31
+        var dia_sem = data.getDay();            // 0-6 (zero=domingo)
+        var mes     = data.getMonth();          // 0-11 (zero=janeiro)
+        var ano2    = data.getYear();           // 2 dígitos
+        var ano4    = data.getFullYear();       // 4 dígitos
+        var hora    = data.getHours();          // 0-23
+        var min     = data.getMinutes();        // 0-59
+        var seg     = data.getSeconds();        // 0-59
+        var mseg    = data.getMilliseconds();   // 0-999
+        var tz      = data.getTimezoneOffset(); // em minutos
+
+        // Formata a data e a hora (note o mês + 1)
+        var str_data = dia + '/' + (mes+1) + '/' + ano4;
+        var str_hora = hora + ':' + min + ':' + seg;
+
+        // Mostra o resultado
+        alert('Hoje é ' + str_data + ' às ' + str_hora);
+        document.writeln(`Hoje é: ` + str_data + ` às ` + str_hora)
+        </Script>
+    <Script>
+    var nome  = window.prompt('Qual e o seu nome? Digite abaixo, por favor')
+    document.writeln(`<h2>Olá, <strong> ${ nome}</strong> Seu nome tem ${nome.length} letras.</h2><br/>`)//lenght = quantidade de letras
+    document.writeln(`Seu nome em maiúsculas é: ${ nome.toUpperCase()}<br/>`)//toUpperCase = maiúsculas
+    document.writeln(`Seu nome em minúsculas é: ${ nome.toLowerCase()}<br/>`)//toLowerCase = minúsculas
+    </Script>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+</body>
+</html>

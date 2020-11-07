@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Intermediário de Js</title>
+        <style> 
+                *{margin: 0; 
+                    padding: 0;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    image-rendering: optimizeQuality;
+                    image-orientation: 0grad;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline
+                }
+
+            Body{
+                padding-top: 3px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                align-items: center;
+                background-color:rgb(0, 0, 0);
+                color:white;
+                font: normal 18pt garamond;
+            }
+            .title{
+                font-size:25pt;
+                font: "Mônaco" "Menlo, 'Courier New', monospace" bold;
+            }
+            .text{
+                font-size:16pt garamond bold;
+            }
+            .back{
+                padding: 3vh 3vh 3vh 3vh;
+                cursor:pointer;
+                position: static;
+          
+                
+            }
+            img{
+                display: flex;
+                padding-top: 1rem; 
+                border-radius: 30%; 
+                border: solid  transparent 10px ;
+            }
+        </style>
+</head>
+<body>
+        <div class="back">
+        <body background="img2/—Pngtree—beautiful hologram -color  _3643167.png" width="100px" height="100px" alt="Desgin by-J°@°"\></body>
+        <img src="img2/logodevjf.jpg" width="220px" height="200px">
+        </div>
+    
+    <h1 class="title">Olá, mundo!</h1>
+    <br>
+    <p class="text">Desenvolvendo em javascript nível Intermediário</p>
+    <br>
+    <br>
+    <span>Design by-J°@°-2@2@/11/06</span>
+    <Script>
+       //var n1 = Number.parseInt(window.prompt('Digite um numero:')) //tranformando em inteiro (***uma forma de fazer)
+       var n1 = Number(window.prompt('Digite um numero:'))//nova forma number, o js se vira
+       //var n2 = Number.parseInt(window.prompt('Digite outro numero:'))
+       var n2 = Number(window.prompt('Digite outro numero:'))//nova forma o js se vira (***outra forma de fazer1)
+       var soma = n1 + n2
+       //window.alert('A soma dos valores é ' + soma)//concatenaçao
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) //template  
+    </Script>
+</body>
+</html>

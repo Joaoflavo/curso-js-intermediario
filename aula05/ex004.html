@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Intermediário de Js</title>
+        <style> 
+                *{margin: 0; 
+                    padding: 0;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    image-rendering: optimizeQuality;
+                    image-orientation: 0grad;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline
+                }
+
+            Body{
+                padding-top: 3px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                align-items: center;
+                background-color:rgb(0, 0, 0);
+                color:white;
+                font: normal 18pt garamond;
+            }
+            .title{
+                font-size:25pt;
+                font: "Mônaco" "Menlo, 'Courier New', monospace" bold;
+            }
+            .text{
+                font-size:16pt garamond bold;
+            }
+            .back{
+                padding: 3vh 3vh 3vh 3vh;
+                cursor:pointer;
+                position: static;
+          
+                
+            }
+            img{
+                display: flex;
+                padding-top: 1rem; 
+                border-radius: 30%; 
+                border: solid  transparent 10px ;
+            }
+        </style>
+</head>
+<body>
+        <div class="back">
+        <body background="img2/—Pngtree—beautiful hologram -color  _3643167.png" width="100px" height="100px" alt="Desgin by-J°@°"\></body>
+        <img src="img2/logodevjf.jpg" width="220px" height="200px">
+        </div>
+    
+    <h1 class="title">Olá, mundo!</h1>
+    <br>
+    <p class="text">Desenvolvendo em javascript nível Intermediário</p>
+    <br>
+    <br>
+    <span>Design by-J°@°-2@2@/11/06</span>
+    <br>
+    <br>
+
+    <Script>
+      var nome  = window.prompt('Qual e o seu nome? Digite abaixo, por favor')
+      document.write(`<h2>Olá, <strong> ${ nome}</strong> Seu nome tem ${nome.length} letras.</h2><br/>`)//lenght = quantidade de letras
+      document.write(`Seu nome em maiúsculas é: ${ nome.toUpperCase()}<br/>`)//toUpperCase = maiúsculas
+      document.write(`Seu nome em minúsculas é: ${ nome.toLowerCase()}<br/>`)//toLowerCase = minúsculas
+
+    </Script>
+    
+    <!--exemplo node.js
+formatações:
+> var n1 = 1545.5 // variável em ponto flutuante
+undefined //**resultado
+> n1// escreveu a variável
+1545.5 //**resultado
+> n1.toFixed(2)//coloca duas casas decimais
+'1545.50'//**resultado
+> n1.toFixed(2).replace('.',',')// coloca duas casas decimais e muda de ponto para vírgula
+'1545,50' //**resultado
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //formatação para moeda local no caso em real brasileiro
+'R$ 1.545,50' //**resultado
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})//mesmo de cima em dólar
+'US$ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})//mesmo de cima em euro 
+'€ 1.545,50'
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}.replace('.',','))//mesmo de cima em euro 
+'€ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'.replace('.',',')}) // com a formatação replace mudando o ponto e vírgula de lugar para rodar direito no node.js
+'US$ 1.545,50'//**resultado
+ 
+ 
+>
+ 
+>
+    -->
+</body>
+</html>
