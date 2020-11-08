@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos DOM</title>
+    <title>Somando Números</title>
     <style>
         *{
             margin: 0; 
@@ -32,20 +32,24 @@
             background-color:#E6E8FA;
             color:black;
             background-size: cover;
-            font: 16pt garamond bold;
+            font: 17pt garamond bold;
         }
-        div#area{
-           font: garamond 15 pt bold;
-           background:orangered;
-           color:white;
-           width: 300px;
-           height: 300px;
-           line-height: 300px;
-           text-align: center;
-
-
+        input{
+            font: 17pt garamond bold;
+            color:orangered;
+            width: 100px;
+            border:green solid 5px;
+            border-radius: 20px;
+            cursor:pointer;
         }
-            
+        div#res{
+            margin-top: 20px;
+            color:white;
+        }
+        .ass:hover{
+            color:navy;
+            cursor:pointer;
+        }
     </style>
 </head>
 <body>
@@ -54,38 +58,27 @@
         </body>
     <img class ="logo" src="img2/logojfspre2.png" width="220px" height="200px">
     </div>
-    <h1>Evoluindo nos estudos com DOM em JS</h1><br/>
-    <p>Construindo e criando</p><br/>
-    <p>Aprendendo a usar  o <Strong>DOM</Strong> em JavaScript</p><br/>
-    <span>E ai bora codar?? continunado a codar!</span><br/>
-      <br/>
-                <div id="area">
-                    Interaja com o mouse...
-                </div> 
-                    <br/> 
+    <h1>Somando valores</h1><br/>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()"><br/><br/>
+    <div id="res">Resultado:</div>
     <script>
-           var area = window.document.getElementById('area')
-           area.addEventListener('click',clicar)
-           area.addEventListener('mouseenter',entrar)
-           area.addEventListener('mouseout',sair)
-           
 
-        function clicar() {
-            area.innerText = 'Clicou com o mouse!'
-            area.style.background ='red'
-        }
+       var tn1 = window.document.getElementById('txtn1')
+       var tn2 = window.document.querySelector('input#txtn2')
+       var res = window.document.getElementById('res')
 
-        function entrar() {
-            area.innerText = 'Entrou com o mouse!'
-        }
-        function sair() {
-            area.innerText = 'Saiu com o mouse!'
-            area.style.background = 'purple'
-        }
+       function somar() {
+       var n1 = Number (tn1.value)
+       var n2 = Number (tn2.value)
+       var Soma = n1 + n2
+       res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <Strong>${Soma}</Strong>`
+       }
 
     </script>
-            <br/>
         <br/>
-        <footer><strong>Design by-J°@°-2@2@/11/09</strong></footer>
+        <br/>
+        <footer class='ass' id="ass"><strong>Design by-J°@°-2@2@/11/09</strong></footer>
 </body>
 </html>
