@@ -11,6 +11,7 @@ Curso de nivle intemediario em JavaScript
 </h4>
 <center><img src="https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif" width="500" height="500" /></center>
 <center><img src="https://photos.app.goo.gl/6mzzWdzeeHQ43HNT7" width="500" height="500" /></center>
+![Logo do R](https://photos.app.goo.gl/6mzzWdzeeHQ43HNT7)
 
 
 
