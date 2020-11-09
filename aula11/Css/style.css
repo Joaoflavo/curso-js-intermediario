@@ -1,0 +1,75 @@
+*{
+    margin: 0; 
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    image-rendering: optimizeQuality;
+    image-orientation: 0grad;
+    font: garamond bold;
+    vertical-align: baseline
+}
+.logo{
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    width: 250px;
+    height: 230px;
+    background: url("/aula10/img2/—Pngtree—beautiful\ hologram\ -color\ \ _3643167.png");
+    background-attachment: local;
+    background-size: cover;
+    background-position: center;
+}
+Body{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    align-items: center;
+    background-color:#E6E8FA;
+    color:black;
+    background-size: cover;
+    font: 17pt garamond bold;
+}
+    input{
+        font: 17pt garamond bold;
+        color:orangered;
+        width: 100px;
+        border:green solid 5px;
+        border-radius: 20px;
+        padding-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        cursor:pointer;
+    }
+    div#res{
+        margin-top: 10px;
+        padding-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        color:white;
+    }
+    .ass:hover{
+        padding-top: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 10px 25px 10px 25px;
+        color:navy;
+        cursor:pointer;
+    }
+    .rodape{
+        display: inline-flex;
+        align-items: baseline fixed;
+        margin: auto;
+        font: 18pt garamond bold;
+        padding: 30px 25px 30px 25px;
+        color:navy;
+        cursor:pointer;
+    }
+    div#time{
+        padding: 30px 25px 30px 25px;
+        color:greenyellow;
+        font: 18pt garamond bold;
+        align-items: baseline fixed;
+        margin: auto;
+        display: inline-flex;
+    }
