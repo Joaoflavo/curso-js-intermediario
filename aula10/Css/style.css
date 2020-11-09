@@ -36,13 +36,30 @@ Body{
         width: 100px;
         border:green solid 5px;
         border-radius: 20px;
+        padding-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
         cursor:pointer;
     }
     div#res{
-        margin-top: 20px;
+        margin-top: 10px;
+        padding-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
         color:white;
     }
     .ass:hover{
+        padding-top: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 10px 25px 10px 25px;
         color:navy;
+        cursor:pointer;
+    }
+    .rodape{
+        display: inline-flex;
+        align-items: baseline fixed;
+        padding: 30px 25px 30px 25px;
+        color: navy;
         cursor:pointer;
     }
