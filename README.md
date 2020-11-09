@@ -9,12 +9,12 @@ Curso de nivle intemediário em JavaScript
 <h4 align="center"> 
 	🚧  JS Advanced 🚀 Construido...J°@°2@2@  🚧
 </h4>
-<center><img src="https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif" width="500" height="500" /></center>
-<center>✌<Strong><h2> Galeria de prints, abaixo sao os resultados obtidos nos treinos.</h2></Strong>🤘👌👍👇
+<p style="text-align: center;"><center><img src="https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif" width="500" height="500" /></center></p>
+<p style="text-align: center;">✌<Strong><h2> Galeria de prints, abaixo sao os resultados obtidos nos treinos.</h2></Strong>🤘👌👍👇
   <img src="aula10\img2\print treino.jpeg" width="350" title="print do resultado">
   <img src="aula10\img2\print treino2.jpeg" width="350" alt="accessibility text">
   <img src="aula10\img2\print treino3.jpeg" width="350" alt="accessibility text">
-</p></center>
+</p></p>
 
 
 
