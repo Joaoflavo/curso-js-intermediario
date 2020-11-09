@@ -11,6 +11,9 @@
 }
 .logo{
     image-resolution: initial;
+    image-rendering: optimizeQuality;
+    width: 250px;
+    height: 230px;
     background: url("/aula10/img2/—Pngtree—beautiful\ hologram\ -color\ \ _3643167.png");
     background-attachment: local;
     background-size: cover;
