@@ -1,5 +1,5 @@
 # Iniciando_Javascript_Nível_Intermediário
-Curso de nivle intemediário em JavaScript
+Curso de nível intemediário em JavaScript
 # Exercícios & Design desenvolvidos por João Flavo
 
 <h1 align="center">Treinando, vamos codar!</h1>
