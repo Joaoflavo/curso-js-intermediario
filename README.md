@@ -2,7 +2,7 @@
 Curso de nivle intemediario em JavaScript
 # Exercícios & Design desenvolvidos por João Flavo
 
-<h1 align="center">Treinando e utilizando bootstrap</h1>
+<h1 align="center">Treinando, vamos codar!</h1>
 👉  Descrição do projeto ## Trabalhando... ## 
 <p align="center">Treinando os conceitos e aprendendo os fundamentos</P>
     ✅ Status do Projeto
