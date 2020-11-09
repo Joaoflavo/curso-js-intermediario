@@ -10,7 +10,7 @@ Curso de nivle intemediario em JavaScript
 	🚧  JS Advanced 🚀 Construido...J°@°2@2@  🚧
 </h4>
 <center><img src="https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif" width="500" height="500" /></center>
-  <img src="aula10\img2\print treino.jpeg" width="350" title="hover text">
+  <img src="aula10\img2\print treino.jpeg" width="350" title="print do resultado">
   <img src="aula10\img2\print treino.jpeg" width="350" alt="accessibility text">
 </p>
 
