@@ -14,6 +14,7 @@ Curso de nível intemediário em JavaScript
   <img src="aula10\img2\print treino.jpeg" width="350" title="print do resultado">
   <img src="aula10\img2\print treino2.jpeg" width="350" alt="accessibility text">
   <img src="aula10\img2\print treino3.jpeg" width="350" alt="accessibility text">
+  <img src="aula11\img2\print treino4.jpeg" width="350" alt="accessibility text">
 </p></p>
 
 
