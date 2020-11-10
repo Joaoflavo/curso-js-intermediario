@@ -28,7 +28,7 @@ Body{
     background-color:#E6E8FA;
     color:black;
     background-size: cover;
-    font: 17pt garamond bold;
+    font: 16pt garamond bold;
 }
     input{
         font: 17pt garamond bold;
@@ -43,7 +43,7 @@ Body{
     }
     div#res{
         margin-top: 10px;
-        padding-top: 3px;
+        padding-top: 20px;
         margin-left: 3px;
         margin-right: 3px;
         color:white;
@@ -60,16 +60,34 @@ Body{
         display: inline-flex;
         align-items: baseline fixed;
         margin: auto;
-        font: 18pt garamond bold;
-        padding: 30px 25px 30px 25px;
+        font: 16pt garamond bold;
+        padding: 20px 25px 20px 25px;
         color:navy;
         cursor:pointer;
     }
     div#time{
         padding: 30px 25px 30px 25px;
         color:greenyellow;
-        font: 18pt garamond bold;
+        font: 16pt garamond bold;
         align-items: baseline fixed;
         margin: auto;
         display: inline-flex;
+    }
+    div#data-hora{
+        padding: 30px 25px 30px 25px;
+        color:darkred;
+        font: 16pt garamond bold;
+        align-items: baseline fixed;
+        margin: auto;
+        display: inline-flex;
+    }
+    div#resposta{
+        color:white;
+        
+        padding:20px 25px 20px 25px;
+    }
+    .text1{
+        color:white;
+        font: 18pt garamond bold;
+        padding:20px 25px 20px 25px;
     }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
-    <script defer src="/aula11/Js/main.js"></script>
+    <script defer src="Js/acess.js"></script>
     <title>Detran</title>
 </head>
 <body>
@@ -13,11 +13,12 @@
         </body>
         <img class ="logo" src="img2/logojfspre2.png" width="220px" height="200px">
     </div>
-    <h1>Sistema de Multas Carioca</h1><br/>
-    Velocidade do carro <input type="number" name="txtvel" id="txtvel"> km/h
-    <input type="button" value="verificar" onclick="calcular()">
-   <div class="res" id="res">
+    <h1>Teste de nacionalidade</h1><br/>
+    <p class ="text1"><strong>Você nasceu em que país, digite ao lado: <input type="text" name="txtp" id="txtp"> pressione o botão para verficar sua naturalidade</strong></p>
+    <input type="button" value="verificar" onclick="consulta()">
+    <div class="resposta" id="resposta"><strong>
         Resultado
+    </strong>
     </div>
     <br>
     <div id="data-hora"></div>
