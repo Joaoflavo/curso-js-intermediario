@@ -5,5 +5,5 @@ if (age < 16){
 } else if (age < 18 || age > 65){     
         console.log ('Voto Opcional!')
     } else if (age >= 18){
-    console.log('voto Obrigatório!')
+    console.log('Voto Obrigatório!')
 }
