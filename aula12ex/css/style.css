@@ -12,7 +12,7 @@
 Body{
     image-resolution: initial;
     image-rendering: optimizeQuality;
-    background: url("../img/pano\ de\ fundo\ sol\ editado.jpg");*/
+    background: url("../img/pano\ de\ fundo\ sol\ editado.jpg");
     background-attachment: local;
     background-size: auto;
     background-position: center;
@@ -26,7 +26,7 @@ Body{
     background-size: auto;
     background-position: center;
 }
-}
+
 header{
     padding-top: 5px;
     color: white;
