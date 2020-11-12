@@ -16,7 +16,7 @@ Body{
     background-attachment: local;
     background-size: auto;
     background-position: center;
-    font: normal 15 pt garamond bold;
+    font: normal 18 pt garamond bold;
 }
 .logo{
     padding-top: 10px;
@@ -45,18 +45,21 @@ footer{
     padding-top: 20px;
     color: white;
     text-align: center;
+    font: 18px garamond bold;
     font-style: italic bold;
     
 }
 Div#txt1{
     padding: 10px 10px 10px 10px;
     margin: auto;
+    font: 18px garamond bold;
     text-align: center;
     align-items: center;
 }
 Div#txt2{
     padding: 10px 10px 10px 10px;
     margin: auto;
+    font: 18px garamond bold;
     text-align: center;
     align-items: center;
 }
