@@ -1,0 +1,75 @@
+*{
+    margin: 0; 
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    image-rendering: optimizeQuality;
+    image-orientation: 0grad;
+    font: garamond bold;
+    vertical-align: baseline
+}
+Body{
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    background: url("../img/pano\ de\ fundo\ sol\ editado.jpg");
+    background-attachment: local;
+    background-size: auto;
+    background-position: center;
+    font: normal 18 pt garamond bold;
+}
+.logo{
+    padding-top: 10px;
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    background-attachment: local;
+    background-size: auto;
+    background-position: center;
+}
+
+header{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+section{
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 10px;
+    padding: 20px;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+footer{
+    padding-top: 20px;
+    padding: 20px 10px 20px 10px;
+    color: white;
+    text-align: center;
+    font: 18px garamond bold;
+    font-style: italic bold;
+    
+}
+Div#txt1{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font: 18px garamond bold;
+    text-align: center;
+    align-items: center;
+}
+Div#txt2{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font: 18px garamond bold;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
