@@ -142,7 +142,7 @@ h1{
 .c-loader2 {
     align-items: center;
     animation: is-rotating 0.8s infinite;
-    animation: fade-in 5s normal forwards ease-in-out;
+    animation: fade-in 3s normal forwards ease-in-out;
     border: 2.5px solid white;/*#e5e5e5;*/
     border-radius: 50%;
     border-top-color: #51d4db;
