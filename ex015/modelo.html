@@ -15,6 +15,7 @@
 <strong>
     <section>
         <div id="txt1">
+            <center>
             <p>Ano de Nascimento:
                 <input type="number" name="txtano" id="txtano" style="width: 90px;background-color:white;color:black;border-radius: 15px;box-shadow: 5px 5px 10px black; font:22px arial bold;text-align: center;align-items: center; margin:auto;height: 30px" min="0">
             </p>
@@ -26,16 +27,20 @@
                 <label for="fem">Feminino</label>
             </p>
             <br>
-            <p>
-                <input type="button" value="verificar" style="width: 90px;background-color:black;color:white;border-radius: 15px;box-shadow: 5px 5px 10px white; font:22px arial bold;text-align: center;align-items: center; margin:auto;height: 30px" onclick="verificar()">
-            </p>
+            </center>
+            <center>
+                <p>
+                    <input type="button" value="verificar" style="width: 90px;background-color:black;color:white;border-radius: 15px;box-shadow: 5px 5px 10px white; font:22px arial bold;text-align: center; Align-items: center; margin:auto;height: 30px" onclick="verificar()">
+                </p>
+            </center>
         </div>
         <div id="msg"></div>
         <div id="res">
-            Loading...
+            <div class="c-loader"></div>
         </div>
+        <br>
         <div id="data-hora">
-            Carregando...
+            <div class="c-loader2"></div>
         </div>
     </section>
 </strong>

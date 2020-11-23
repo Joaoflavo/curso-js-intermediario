@@ -19,7 +19,7 @@ function verificar(){
         var img = document.createElement('img')
         img.setAttribute('id','foto')
         if (fsex[0].checked){
-            genero = 'Homem'
+            genero = 'Masculino'
             if (idade >= 0 && idade <10){
                 //Criança
                 img.setAttribute('src', 'criançahomemed.png')
@@ -34,7 +34,7 @@ function verificar(){
                 img.setAttribute('src', 'idosohomemed.png')
             }
         } else if (fsex[1].checked) {
-            genero = 'Mulher'
+            genero = 'Feminino'
             if (idade >= 0 && idade <10){
                 //Criança
                 img.setAttribute('src', 'criançamulhered.png') 
@@ -51,28 +51,33 @@ function verificar(){
             }
         }
         res.style.textAlign = 'center'//alinhamento centralidado por javascript
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+        res.innerHTML = `Detectamos que seu Gênero é ${genero} com ${idade} anos.`
         res.appendChild(img)
-        
     }
 }
-     // Função para formatar 1 em 01
-    newFunction()
-function newFunction() {
+    // Função para formatar 1 em 01
+    loading()
+    function loading() {
     const zeroFill = n => {
         return ('0' + n).slice(-2)
     }
-
-    // Cria intervalo
-    const interval = setInterval(() => {
+        // Cria intervalo
+        const interval = setInterval(() => {
         // Pega o horário atual
         const now = new Date()
-
         // Formata a data conforme dd/mm/aaaa hh:ii:ss
         const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds())
-
         // Exibe na tela usando a div#data-hora
         document.getElementById('data-hora').innerHTML = dataHora
     }, 1000)
 }
-
+    function id(el) {
+        return document.getElementById(el);
+    }
+    function hide(el) {
+        id(el).style.display = 'none';//escondendo tudo
+    }
+    window.onload = function() {
+        id('all').style.display = 'block';//liberando qndo terminar
+        hide('loading');
+}
