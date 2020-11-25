@@ -1,0 +1,137 @@
+*{
+    margin: 0; 
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    image-rendering: optimizeQuality;
+    image-orientation: 0grad;
+    font: garamond bold;
+    vertical-align: baseline
+}
+Body{
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    background: url("../img/pexels-jonathan-borba-2983101.jpg");
+    background-color: rgba(0, 0, 0, 0.945);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1280px 700px;
+    background-position: center;
+    font: normal 18 pt garamond bold;
+}
+.logo{
+    padding-top: 30px;
+    padding: 10px 10px 10px 10px;
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    border: double white 3px;
+    margin: auto;
+    float: none;
+    flood-opacity: inherit;
+    border-radius: 1000px;
+    background-attachment: local;
+    background-size: 100%;
+}
+Div#logojf {
+    padding-top: 20px;
+    padding: 10px 10px 10px 10px;
+    image-resolution: initial;
+    image-rendering: optimizeQuality;
+    padding-top: 10px;
+    margin: auto;
+    text-align:center;
+    align-items: center;
+}
+header{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+section{
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.698);
+    box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.452);
+    border-radius: 30px;
+    padding: 20px;
+    width: 1000px;
+    height: 2100px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+footer{
+    padding-top: 60px;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-align: left;
+    font: 18px arial bold;
+    font-style: italic bold;
+    
+}
+Div#tag-container{
+    padding: 10px;
+    margin: auto;
+    font: 25px garamond bold;
+    text-align: center;
+    align-items: auto;
+    float:right;
+    display: table-row-group;
+}
+.img{
+    border: 10px double orangered;
+    box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.575);
+    padding-top: 3px;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+Div#txt2{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font: 18px garamond bold;
+    text-align: center;
+    align-items: center;
+    float:right;
+    display: table-row-group;
+}
+Div#txt3{
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font: 18px garamond bold;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    padding: 40px 20px 40px 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+nav { 
+    width: 60%;
+    padding-top: 30px; 
+    margin:auto;
+    border-radius: 20px 80px 20px 80px;
+    background:linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    float: right; 
+    padding: 2.5px 2.5px; 
+    align-items: right;
+}
+nav ul li { 
+    list-style: lower-greek; 
+    display: inline; 
+}
+nav ul li a { 
+    padding: 10px; 
+    color:white; 
+    font: 1.3em champion; 
+}
+#menu, .menu {	
+    display: none; 
+}
