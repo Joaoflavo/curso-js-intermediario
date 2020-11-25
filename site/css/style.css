@@ -35,17 +35,14 @@ Body{
     background-size: 100%;
 }
 Div#logojf {
-    padding-top: 20px;
-    padding: 10px 10px 10px 10px;
+    padding-top: 60px;
     image-resolution: initial;
     image-rendering: optimizeQuality;
-    padding-top: 10px;
     margin: auto;
     text-align:center;
-    align-items: center;
 }
 header{
-    padding-top: 5px;
+    padding-top: 10px;
     color: white;
     text-align: center;
 }
@@ -55,8 +52,8 @@ section{
     box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.452);
     border-radius: 30px;
     padding: 20px;
-    width: 1000px;
-    height: 2100px;
+    width: 712px;
+    height: 900px;
     margin: auto;
     color: black;
     box-shadow: 5px 5px 10px black;
@@ -64,16 +61,16 @@ section{
 footer{
     padding-top: 60px;
     color: white;
-    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    box-shadow: 8px 8px 8px rgb(255, 255, 255);
     text-align: left;
-    font: 18px arial bold;
+    font: 16px arial bold;
     font-style: italic bold;
     
 }
 Div#tag-container{
     padding: 10px;
     margin: auto;
-    font: 25px garamond bold;
+    font: 16px garamond bold;
     text-align: center;
     align-items: auto;
     float:right;
@@ -83,11 +80,12 @@ Div#tag-container{
     border: 10px double orangered;
     box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.575);
     padding-top: 3px;
-    align-items: center;
+    padding: 5px 5px 5px 5px;
+    align-items: left;
     border-radius: 50%;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 Div#txt2{
     padding: 10px 10px 10px 10px;
