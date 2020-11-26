@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="Js/acess.js"></script>
-    <img class ="logo" id="logo"src="img/lart&sal.gif" width="130px" height="130px">
+    <img class ="logo" id="logo"src="img/lart&sal.gif" width="180px" height="180px">
     <title>HAMBURGUERIA ART E SAL</title>
 </head>
 <body>
@@ -25,6 +25,9 @@
 <br>
         <h1>HAMBURGUERIA ART E SAL</h1>
     </header>
+    <strong><div id="data-hora">
+        <div class="c-loader2"></div>
+    </div></br></strong>
     <section class="sec1">
         <div class="txt1"  id="txt1">
             CONTEÚDO DA PÁGINA
@@ -36,13 +39,72 @@
     </section>
     <br>
     
+    <!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+    <img src="img/icethunder.jpg" widht="300px" height="300px" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+    <img src="img/fritas.jpg" widht="300px" height="300px"onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+    <img src="img/canoas.jpg" widht="300px" height="300px"onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+    <img src="img/batatahavaianas.jpg" widht="300px" height="300px"onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+</div>
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+    <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="img/icethunder.jpg" widht="320px" height="320px" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="img/fritas.jpg"widht="320px" height="320px" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="img/canoas.jpg"widht="320px" height="320px" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="img/batatahavaianas.jpg" widht="320px" height="320px" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- Caption text -->
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+    <!-- Thumbnail image controls -->
+    <div class="column">
+        <img class="demo" src="img/icethunder.jpg"widht="100px" height="100px"onclick="currentSlide(1)" alt="Nature">
+    </div>
+    <div class="column">
+        <img class="demo" src="img/fritas.jpg"widht="100px" height="100px" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+        <img class="demo" src="img/canoas.jpg"widht="100px" height="100px" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+    <div class="column">
+        <img class="demo" src="img/batatahavaianas.jpg" widht="100px" height="100px"onclick="currentSlide(4)" alt="Lights">
+    </div>
+    </div>
+</div>
+
+
     <div class="logojf" id="logojf">
         <img src="img/logodevallsf.png" width="180px" height="180px" Align="left">
     </div>
     <footer>
         <p>
             <h2>
-                <strong>&copy;Design by-J°@°-2@2@/11/11
+                <strong>&copy;Design by-J°@°-2@2@/11/25
                 </strong>
             </h2>
         </p>
