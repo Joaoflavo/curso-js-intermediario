@@ -52,14 +52,14 @@ header{
     text-align: center;
 }
 section.princ{
-    padding-top: 10px;
+    padding-top: 40px;
     background: rgba(255, 255, 255, 0.698);
     box-shadow: 3px 3px 6px rgba(8, 8, 8, 0.452);
     border-radius: 30px;
     padding: 20px;
-    width: 712px;
-    height: 1500px;
-    margin: auto;
+    width: 660px;
+    height: 1850px;
+    margin: 30px auto;
     color: black;
     box-shadow: 5px 5px 10px black;
 }
@@ -112,6 +112,7 @@ Div#msg{
     color: black;
     text-align:center;
     align-items: center;
+    display: flex;
 }
 .c-loader {
     border: 5px solid #e5e5e5;
@@ -172,12 +173,16 @@ Div#tag-container{
     align-items: left;
     border-radius: 50%;
     margin: auto;
-    width: 200px;
-    height: 200px;
-    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin:50px auto;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    transition: all 0.5s;
+}
+.img:hover{
+    transform:scale(2);
 }
 Div#txt2{
     padding: 10px 10px 10px 10px;
@@ -194,6 +199,7 @@ Div#txt3{
     font: 18px garamond bold;
     text-align: center;
     align-items: center;
+    display: flex;
 }
 h1{
     padding: 60px 20px 40px 20px;
@@ -201,6 +207,13 @@ h1{
     text-align: center;
     align-items: center;
     color:white;
+}
+h6{
+    padding: 60px 20px 60px 20px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    font: 10px arial 900;
 }
 nav { 
     width: 60%;
